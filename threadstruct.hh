@@ -23,11 +23,6 @@
 */
 #ifndef __THREADSTRUCT_HH__
 #define __THREADSTRUCT_HH__
-/*
- * @file   threadstruct.h
- * @brief  Definition of thread related structure.
- */
-
 #include <execinfo.h>
 
 #include "xdefines.hh"
@@ -35,7 +30,6 @@
 /*
  * thread_t is the thread related information
  */
-#include  <stdalign.h>
 typedef struct {
 	int tIndex;	// thread Index
 	threadFunction* startRoutine;	// thread procedure

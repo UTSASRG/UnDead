@@ -21,13 +21,8 @@
 * @author Tongping Liu, <http://www.cs.utsa.edu/~tongpingliu/> 
 * @author Jinpeng Zhou, Jinpeng.Zhou@utsa.edu
 */
-#ifndef __HASHFUNC_H__
-#define __HASHFUNC_H__
-
-/*
- * @file   hashfuncs.h
- * @brief  Some functions related to hash table.
- */
+#ifndef __HASHFUNCS_H__
+#define __HASHFUNCS_H__
 
 #include <string.h>
 

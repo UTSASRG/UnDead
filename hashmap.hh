@@ -24,11 +24,6 @@
 #ifndef __HASHMAP_HH__
 #define __HASHMAP_HH__
 
-/*
- * @file   hashtable.h
- * @brief  Management about hash table. Used for single thread
- */
-
 #include <assert.h>
 
 #include "dllist.hh"

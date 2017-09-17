@@ -52,7 +52,7 @@ public:
 	}
 
 	/// @brief Initialize the system.
-	void initialize()	{
+	void initialize() {
 #ifdef ENABLE_ANALYZER
 		analyzer::getInstance().initialize();
 #endif

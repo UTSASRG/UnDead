@@ -23,10 +23,6 @@
 */
 #ifndef __DLLIST_HH__
 #define __DLLIST_HH__
-/*
- * @file   dllist.h
- * @brief  Something about double-link list etc.
- */
 
 typedef struct list {
   struct list* prev;
